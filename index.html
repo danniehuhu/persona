@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+     
+    <title>個人屢歷</title>
+    <script>
+        $(function(){
+          $("#point1").click(function () {
+            $("#photo1").fadeIn();
+            $("#photo2").fadeOut();
+            $("#photo3").fadeOut();
+
+            $("#point1").css("background-color", "rgb(59, 31, 243)");
+            $("#point2").css("background-color", "white");
+            $("#point3").css("background-color", "white");
+          })
+            $("#point2").click(function () {
+            $("#photo2").fadeIn();
+            $("#photo1").fadeOut();
+            $("#photo3").fadeOut();
+
+            $("#point2").css("background-color", "rgb(59, 31, 243)");
+            $("#point1").css("background-color", "white");
+            $("#point3").css("background-color", "white");
+          })
+            $("#point3").click(function () {
+            $("#photo3").fadeIn();
+            $("#photo2").fadeOut();
+            $("#photo1").fadeOut();
+
+            $("#point3").css("background-color", "rgb(59, 31, 243)");
+            $("#point2").css("background-color", "white");
+            $("#point1").css("background-color", "white");
+          })
+        })
+        </script>
+  </head>
+  <body>
+    <div id="card">
+      <div id="pic">
+        <img src="photo1.jpg" width="238" height="244" id="photo1" />
+        <img src="photo2.jpg" width="238" height="244" id="photo2" />
+        <img src="photo3.jpg" width="238" height="244" id="photo3" />
+        <div class="point" id="point1"></div>
+        <div class="point" id="point2"></div>
+        <div class="point" id="point3"></div>
+      </div>
+      <div id="info">
+        <h1>胡乃元</h1>
+        <h2>32 歲</h2>
+        <h2>前端工程師</h2>
+        <h2>台南</h2>
+        <h3>把握當下</h3>
+      </div>
+      <div id="about">
+        <h4><i class="fa-solid fa-user-secret"></i> 關於我</h4>
+        <p>
+          大家好，我是阿乃。多媒體與電腦嬠樂科學系畢業，目前是一位CNC操作員，自學網頁與前端程式設計精進自身技能，希望能為自已未來找到新的方向。
+        </p>
+        <h4>工作經歷</h4>
+        <ul>
+          <li>祥嶄企業</li>
+          <li>World Gym 健身教練</li>
+          <li>工具人雞蛋糕（創業）</li>
+          <li>Owl Inn 民宿房務</li>
+        </ul>
+        <h4>社群連結</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/hu.can.hua">Facebook</a></li>
+          <li>
+            <a href="<a href="https://www.facebook.com/hu.can.hua">Instagram</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="person">
+        <h4>個性</h4>
+        <div class="block">
+        <div class="left-text">內向</div>
+        <div class="right-text">外向</div>
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green1"></div>
+        
+      
+      </div>
+      <div class="block">
+        <div class="left-text">理性</div>
+        <div class="right-text">感性</div>
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green2"></div>
+        
+      
+      </div>
+      <div class="block">
+        <div class="left-text">謹慎</div>
+        <div class="right-text">冒險</div>
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green3"></div>
+        
+      
+      </div>
+      <div class="block">
+        <div class="left-text">思考</div>
+        <div class="right-text">行動</div>
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green4"></div>
+        
+      
+      </div>
+      <h4>技能</h4>
+      <div class="block">
+        <div class="left-text">HTML</div>
+        
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green5"></div>
+        
+      
+      </div>
+      <div class="block">
+        <div class="left-text">CSS</div>
+        
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green6"></div>
+        
+      
+      </div>
+      <div class="block">
+        <div class="left-text">javeScript</div>
+       
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green7"></div>
+        
+      
+      </div>
+      <div class="block">
+        <div class="left-text">ReactJS</div>
+        
+        <div class="gray-bar"></div>
+        <div class="green-bar" id="green8"></div>
+    </div>
+
+
+  </body>
+</html>

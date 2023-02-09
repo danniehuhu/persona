@@ -1,0 +1,171 @@
+body {
+  background-color: rgb(59, 31, 243);
+}
+#card {
+  width: 744px;
+  height: 528px;
+  background-color: white;
+  box-shadow: 5px 10px 20px -10px black;
+
+  position: relative;
+  top: 24px;
+  left: 24px;
+}
+#pic {
+  width: 238px;
+  height: 244px;
+
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#photo2 {
+  display: none;
+}
+#photo3 {
+  display: none;
+}
+.point {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  top: 220px;
+}
+#point1 {
+  left: 87px;
+  background-color: rgb(59, 31, 243);
+}
+#point2 {
+  left: 113px;
+}
+#point3 {
+  left: 139px;
+}
+
+#about {
+  width: 320px;
+  height: 528px;
+  background-color: white;
+
+  position: absolute;
+  left: 238px;
+  top: 0;
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+h4 {
+  color: rgb(59, 31, 243);
+}
+p {
+  color: gray;
+}
+li {
+  color: gray;
+}
+
+#info {
+  width: 238px;
+  height: 284px;
+  background-color: RoyalBlue;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+h3 {
+  font-style: italic;
+}
+
+#person {
+  width: 186px;
+  height: 244px;
+
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+#skills {
+  width: 186px;
+  height: 284px;
+
+  background-color: darkgoldenrod;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.block {
+  width: 138px;
+  height: 32px;
+
+  position: relative;
+  margin-top: 12px;
+}
+.left-text {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: gray;
+}
+.right-text {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: gray;
+}
+.gray-bar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 138px;
+  height: 12px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+.green-bar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 24px;
+  height: 12px;
+  background-color: lightseagreen;
+  border-radius: 6px;
+}
+#green1 {
+  left: 60px;
+}
+#green2 {
+  left: 25px;
+}
+#green3 {
+  left: 55px;
+}
+#green4 {
+  left: 72px;
+}
+#green5 {
+  width: 40px;
+}
+#green6 {
+  width: 40px;
+}
+#green7 {
+  width: 40px;
+}
+#green8 {
+  width: 10px;
+}
